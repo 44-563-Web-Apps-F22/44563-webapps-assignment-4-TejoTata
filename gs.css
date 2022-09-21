@@ -45,3 +45,13 @@ text-indent: 100px;
 .ACT{
     color:darkorange;
 }
+table th, td{
+    border: 2px solid;
+}
+td{
+    text-align: center;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
