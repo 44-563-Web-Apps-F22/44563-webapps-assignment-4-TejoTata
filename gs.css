@@ -6,7 +6,7 @@ text-indent: 100px;
 }
 .song{
     color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     font-size: medium;
     text-indent: 100px;
 }
@@ -54,4 +54,8 @@ td{
 th, td {
     padding: 15px;
     text-align: center;
+}
+th{
+    background-color: aquamarine;
+    color: black;
 }
