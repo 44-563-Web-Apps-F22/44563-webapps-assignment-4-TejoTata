@@ -1,61 +1,84 @@
-.speech{
-color:blue;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: medium;
-text-indent: 100px;
-}
-.song{
-    color:black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+.speech {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
     font-size: medium;
     text-indent: 100px;
 }
-.direction{
-    color:black;
+
+.song {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    text-indent: 100px;
+}
+
+.direction {
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
     background-color: aliceblue;
 }
-.direction:hover{
-    color:cyan;
+
+.direction:hover {
+    color: brown;
     background-color: bisque;
 }
-.name{
-    color:black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.name {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
-    display:inline;
+    display: inline;
 }
-.ALL{
-    color:blueviolet;
+
+.ALL {
+    color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.SAMUEL{
-    color:aqua;
+
+.SAMUEL {
+    color: aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.KING{
-    color:crimson;
+
+.KING {
+    color: crimson;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.chorus{
+
+.chorus {
     color: chartreuse;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.ACT{
-    color:darkorange;
+
+.ACT {
+    color: darkorange;
 }
-table th, td{
+
+table th,
+td {
     border: 2px solid;
+
 }
-td{
+
+tr:nth-child(odd) {
+    background-color: beige;
+}
+
+td {
     text-align: center;
 }
-th, td {
+
+th,
+td {
     padding: 15px;
     text-align: center;
+
 }
-th{
+
+th {
     background-color: aquamarine;
     color: black;
+
 }
