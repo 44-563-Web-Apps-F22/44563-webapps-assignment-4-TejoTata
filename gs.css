@@ -23,6 +23,7 @@
 .direction:hover {
     color: brown;
     background-color: bisque;
+
 }
 
 .name {
@@ -30,11 +31,16 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     display: inline;
+    
+}
+h6:hover {
+    text-shadow: 2px 2px 2px red;
 }
 
 .ALL {
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .SAMUEL {
@@ -45,6 +51,7 @@
 .KING {
     color: crimson;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 10px azure;
 }
 
 .chorus {
